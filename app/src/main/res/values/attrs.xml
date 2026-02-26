@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="custom_toggle">
+
+        <attr name="isChecked" format="boolean" />
+
+        <attr name="toggleOnDrawable" format="reference" />
+        <attr name="toggleOffDrawable" format="reference" />
+
+        <attr name="thumbOnDrawable" format="reference" />
+        <attr name="thumbOffDrawable" format="reference" />
+
+        <attr name="animationDuration" format="integer" />
+
+    </declare-styleable>
+
+</resources>

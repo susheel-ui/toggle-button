@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="22dp">
+
+    <View
+        android:id="@+id/toggleBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_toggle_off"/>
+
+    <View
+        android:id="@+id/toggleThumb"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/bg_toggle_thumb"/>
+</FrameLayout>
